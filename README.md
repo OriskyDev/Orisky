@@ -1,22 +1,22 @@
 <br/>
 <p align="center">
   <a href="https://github.com/OriskyDev/Orisky">
-    <img src="https://github.com/OriskyDev/Orisky/blob/main/doc/icon.png?raw=true" alt="Logo" width="80" height="80">
+    <img src="https://github.com/OriskyDev/Orisky/blob/main/doc/icon.png?raw=true" alt="Logo" height="120">
+    <img src="https://github.com/OriskyDev/Orisky/blob/main/asset/title.png?raw=true" alt="title" height="120">
   </a>
   <!-- TODO:banner png, see OriskyDev/Orisky#2 -->
 
-<h3 align="center">Orisky</h3>
-
 <div align="center">
-  Orisky modpack documents and issue-tracker. Available on Modrinth (not yet).
-  <br/>
-  <br/>
+  Orisky modpack documents and issue-tracker. Available on Modrinth (not yet).</br>
+  Orisky 整合包文档与议题追踪器。可在Modrinth上下载（暂时还没上传）。
+  </br>
+  </br>
   <a href="https://github.com/OriskyDev/Orisky/issues">Report Bug</a>
-  &nbsp;
+  &nbsp;|&nbsp;
   <a href="https://github.com/OriskyDev/Orisky/issues">Request Feature</a>
-  <br/>
-  <br/>
-  <br/>
+  </br>
+  </br>
+  </br>
 
   ![Downloads](https://img.shields.io/github/downloads/OriskyDev/Orisky/total) ![Stargazers](https://img.shields.io/github/stars/OriskyDev/Orisky?style=social) ![Issues](https://img.shields.io/github/issues/OriskyDev/Orisky) ![License](https://img.shields.io/github/license/OriskyDev/Orisky)
 
