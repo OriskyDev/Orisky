@@ -1,0 +1,6 @@
+*.exe
+.minecraft/assets
+.minecraft/libraries
+PCL
+.minecraft/launcher_profiles.json
+.minecraft/PCL.ini
