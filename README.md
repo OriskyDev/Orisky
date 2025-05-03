@@ -33,6 +33,6 @@ This is a modpack for Minecraft 1.21.1 on Fabric. It features a variety of mods,
 
 ## Mods / 模组
 
-See doc/mods.md
+See [doc/mods.md](doc/mods.md)
 
-详情请见[./doc/mods.md](.doc/mods.md)
+详情请见[doc/mods.md](doc/mods.md)
