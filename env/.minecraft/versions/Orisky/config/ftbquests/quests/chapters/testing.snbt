@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "testing"
+	group: ""
+	id: "1F171F8EF2AA2387"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"minecraft:profile": {
+						id: [I;
+							-1995770157
+							1897154120
+							-2038536510
+							-857763735
+						]
+						name: "OakPlatinum"
+						properties: [{
+							name: "textures"
+							signature: "lQ/Gu6wib3U4HW/9Eqt8CrTXADHEiY0RcoGOMtIWJQU+I3K7DKUkrS42Cofgxtste1iKw7rbpSNWsJUCQjXg+BZzofD4HZGFzZzDyCqiERUiARwU9VMXbCDGBQm6sLab82EsUJ4g1d/BKlAaCKm0K0RRrRIUE3Ibs22o5ipt8x2L5UNxSahBWDztu4LY6ND1xlA8J0OA0YyUVyggU3NCHFKYuPYG//vpwgf8cSjsiLqyYpqARbqmInNb+N8BYaUWb1iy/RN2BjhhOn8dFdtDjFAcZnHlFqNelALQH0dxmkBHPU0pwa6jjZmICCMb+BAQU+nC2QgAMJyun43oDcw02OLOBDxOiraYrNt4npaggYv3YqCL4qGBa/R4cptbEDqlDXdmov02by/MU/x5mUZ01xjVircQ4ChyuEkI8tu5ML86tc0tg4gCXlV7YHgh27gyGH2FIeFfx7ek55KST6znZeJN/WX8bsr4fQU0bdC1o2KxgML7AG4GTyF2T+cZ78I2CHli2/U6d7Lw3zuxu7x9azg+Ng8yxEAz6rGbReqPXOvJjABQ8CWlRd9PK5e+GxZUPfVb1BIfkwzVrOKqBH0wz1Ii5lgiv5CMKE0JqkkiE4Q0alS5IijhJin0ASCRktWgBUjXPkHMMT5/A11nUOLyKZ45dWTNesezUhTfT/6PKPA="
+							value: "ewogICJ0aW1lc3RhbXAiIDogMTc0NjQwMTI2Nzk4MSwKICAicHJvZmlsZUlkIiA6ICI4OTBhZjZkMzcxMTQ0NjQ4ODY3ZTY2YzJjY2RmOTA2OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPYWtQbGF0aW51bSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNGJjZmNjMWZlM2JlM2Q5NWNhMzQyYzQ2NjYzNDFlY2Q2NzI5ZGQzY2M4OTgyZjc2NTI0YTQxMDZjM2U1YjAzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0="
+						}]
+					}
+				}
+				id: "minecraft:player_head"
+			}
+			id: "4D00EFF9966DD870"
+			tasks: [{
+				id: "753CA2909F71D00D"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D00EFF9966DD870"]
+			id: "2AC2491443CC7D98"
+			rewards: [{
+				id: "651049AB79FA33FD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "372121F76B538FE7"
+				item: { count: 1, id: "affinity:wispen_testament" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+	]
+}
