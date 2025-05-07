@@ -1,0 +1,535 @@
+{
+	autofocus_id: "08B8EB0F146E14A0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "65E8115E240F751B"
+	id: "24A99D797F4AE511"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7AE42F9127E94018"
+			rewards: [
+				{
+					count: 16
+					id: "080FDA3365FA4243"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "7017C0B8B7543938"
+					item: {
+						count: 1
+						id: "minecraft:oak_sapling"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				count: 4L
+				id: "1204FCB11DCAAF23"
+				item: { count: 4, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08B8EB0F146E14A0"]
+			id: "42A760E8DF844083"
+			tasks: [
+				{
+					id: "44181E46A5891344"
+					item: { count: 1, id: "fabricaeexnihilo:raw_silkworm" }
+					type: "item"
+				}
+				{
+					id: "49FD9745ACBFB500"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AE42F9127E94018"]
+			id: "08B8EB0F146E14A0"
+			rewards: [{
+				count: 16
+				id: "798A35F90B7B6B22"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "268255AA90514C5E"
+				item: { count: 1, id: "fabricaeexnihilo:wooden_crook" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"42A760E8DF844083"
+				"572B544C3154FB5A"
+			]
+			id: "10F875357B39CE68"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "01FEC733FA5B9E74"
+					item: { count: 1, id: "fabricaeexnihilo:string_mesh" }
+					type: "item"
+				}
+				{
+					id: "08DFF926C1E288B0"
+					item: { count: 1, id: "fabricaeexnihilo:oak_sieve" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AE42F9127E94018"]
+			id: "3BF9B121FE52437C"
+			rewards: [{
+				count: 16
+				id: "4E083CE99C0DDBEF"
+				item: {
+					count: 1
+					id: "minecraft:oak_leaves"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3875473C3226FFB6"
+				item: { count: 1, id: "fabricaeexnihilo:oak_crucible" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A3BB0726C44213E"]
+			id: "6FD7DB3FBB476E24"
+			shape: "hexagon"
+			tasks: [{
+				id: "1A55D95020A060B6"
+				item: { count: 1, id: "fabricaeexnihilo:stone_hammer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FD7DB3FBB476E24"]
+			id: "3509E4D4D37E2A29"
+			tasks: [
+				{
+					id: "137D4DF6F112A01C"
+					item: { count: 1, id: "minecraft:gravel" }
+					type: "item"
+				}
+				{
+					id: "48AD2F1A51D88F68"
+					item: { count: 1, id: "minecraft:sand" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10F875357B39CE68"]
+			id: "7A3BB0726C44213E"
+			tasks: [
+				{
+					id: "522E4275ABFB0AB2"
+					item: { count: 1, id: "minecraft:stone" }
+					type: "item"
+				}
+				{
+					id: "0CD9882005DB2B92"
+					item: { count: 1, id: "fabricaeexnihilo:stone_pebble" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56E0FC394964D297"]
+			id: "5FAA61950EA49A05"
+			tasks: [
+				{
+					id: "0E00704D22299D4A"
+					item: { count: 1, id: "fabricaeexnihilo:porcelain" }
+					type: "item"
+				}
+				{
+					id: "19250AF405A8F8F7"
+					item: { count: 1, id: "fabricaeexnihilo:unfired_porcelain_crucible" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FAA61950EA49A05"]
+			id: "387ECB768641CCB3"
+			tasks: [{
+				id: "061ADD505F519755"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AE42F9127E94018"]
+			id: "4A7C0D10CA361FC2"
+			tasks: [
+				{
+					id: "1F6E25C0659CA460"
+					item: { count: 1, id: "fabricaeexnihilo:oak_barrel" }
+					type: "item"
+				}
+				{
+					id: "32AF725CFFB3CB7C"
+					item: { count: 1, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A7C0D10CA361FC2"]
+			id: "572B544C3154FB5A"
+			tasks: [{
+				id: "783251645673DBEB"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3509E4D4D37E2A29"]
+			id: "56E0FC394964D297"
+			tasks: [{
+				id: "3A246C3B923BA39D"
+				item: { count: 1, id: "fabricaeexnihilo:flint_mesh" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56E0FC394964D297"]
+			id: "64A5D6D774513F11"
+			tasks: [{
+				id: "44A962D6A5EEEB4C"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BF9B121FE52437C"]
+			id: "16CFC69882FC08C2"
+			tasks: [{
+				id: "17E5A91B28A9C2B9"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56E0FC394964D297"]
+			id: "3FC5E997DDDB06C8"
+			tasks: [{
+				id: "3A66855D4B3B59ED"
+				item: { count: 1, id: "fabricaeexnihilo:iron_mesh" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3FC5E997DDDB06C8"]
+			id: "251BEC33DAB52A86"
+			tasks: [{
+				id: "4C278F4B42EBBDD7"
+				item: { count: 1, id: "fabricaeexnihilo:diamond_mesh" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64A5D6D774513F11"]
+			id: "655ADAEB30AD1A21"
+			tasks: [{
+				id: "01C7193F7F9925B7"
+				item: { count: 1, id: "alloy_forgery:deepslate_bricks_forge_controller" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["655ADAEB30AD1A21"]
+			id: "5E6991C6DBD9D2A1"
+			tasks: [{
+				id: "55767E6DDCFA448D"
+				item: { count: 1, id: "oritech:steel_ingot" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			id: "0F440A6C589C9A11"
+			tasks: [{
+				id: "6719CF1E0D81A729"
+				item: { count: 1, id: "minecraft:moss_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F440A6C589C9A11"]
+			id: "5D3F532028BF14BE"
+			tasks: [
+				{
+					id: "215CCE78F9E7EDAD"
+					item: { count: 1, id: "affinity:azalea_flowers" }
+					type: "item"
+				}
+				{
+					id: "172BA9E350E1FD56"
+					item: { count: 1, id: "minecraft:azalea" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5D3F532028BF14BE"
+				"0483A37308307320"
+			]
+			id: "5B9149EA227662F4"
+			shape: "hexagon"
+			tasks: [{
+				id: "70C8777588BDC0F4"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"16CFC69882FC08C2"
+				"387ECB768641CCB3"
+			]
+			id: "68B1A0876CEABA0D"
+			shape: "hexagon"
+			tasks: [{
+				id: "405D2E033A52FC85"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5E6991C6DBD9D2A1"
+				"5B9149EA227662F4"
+			]
+			id: "6FD401DBF8A26984"
+			shape: "rsquare"
+			tasks: [{
+				id: "5BF47F4EA6D0AB87"
+				item: { count: 1, id: "oritech:machine_core_2" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B9149EA227662F4"]
+			id: "1142FA17583D8CDD"
+			tasks: [
+				{
+					id: "14F46847625B18BE"
+					item: { count: 1, id: "affinity:arcane_treetap" }
+					type: "item"
+				}
+				{
+					id: "2CF682523B75C7FE"
+					item: { count: 1, id: "affinity:assembly_augment" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			id: "04D5D6BCA0493BF4"
+			tasks: [{
+				id: "6177F76A3AC2F288"
+				item: { count: 1, id: "minecraft:mycelium" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04D5D6BCA0493BF4"]
+			id: "2312185B8394CB9B"
+			tasks: [{
+				id: "60DC50A467A19ABD"
+				item: { count: 1, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2312185B8394CB9B"
+				"56E0FC394964D297"
+			]
+			id: "0483A37308307320"
+			tasks: [{
+				id: "0A8290DF56879CBC"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			id: "766C81C69A27C1C2"
+			tasks: [{
+				id: "63342C51D6A4772A"
+				item: { count: 1, id: "affinity:anthracite_powder" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D3F532028BF14BE"]
+			id: "2EFBBC4A890808B5"
+			tasks: [{
+				id: "47273551909CEFAC"
+				item: { count: 1, id: "affinity:inert_wisp_matter" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"060D6691B1F45A7E"
+				"766C81C69A27C1C2"
+				"2153023BD6F078EB"
+			]
+			id: "097F24C922AA6750"
+			tasks: [
+				{
+					id: "0F7CF936EBA47B09"
+					item: { count: 1, id: "affinity:asp_rite_core" }
+					type: "item"
+				}
+				{
+					id: "23F510828CAE64A7"
+					item: { count: 1, id: "affinity:rudimentary_ritual_socle" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1142FA17583D8CDD"
+				"2EFBBC4A890808B5"
+			]
+			id: "060D6691B1F45A7E"
+			tasks: [
+				{
+					id: "28B88212ECB3842C"
+					item: { count: 1, id: "affinity:uncanny_rod" }
+					type: "item"
+				}
+				{
+					id: "4D8A604292C538EA"
+					item: { count: 1, id: "affinity:wand_of_inquiry" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			id: "2153023BD6F078EB"
+			tasks: [{
+				id: "5B108926622E1174"
+				item: { count: 1, id: "affinity:ritual_socle_composer" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["097F24C922AA6750"]
+			id: "33419E50CBF3FF91"
+			tasks: [
+				{
+					id: "6C67C723C3EE6E2F"
+					item: { count: 1, id: "affinity:emerald_block" }
+					type: "item"
+				}
+				{
+					id: "32022D7603D6676D"
+					item: { count: 1, id: "affinity:crystalline_wisp_matter_composite" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33419E50CBF3FF91"]
+			id: "20BDF630E943CC6B"
+			tasks: [{
+				id: "241882A81B0762AF"
+				item: { count: 1, id: "minecraft:budding_amethyst" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 2.0d
+		}
+	]
+}

@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "65E8115E240F751B"
+	id: "39C24E24A92D89B8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "533E21D7EBA89640"
+			shape: "square"
+			tasks: [{
+				id: "6D77A6660E0E0E02"
+				item: { count: 1, id: "oritech:machine_core_2" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50298D24EB3D31F3"]
+			id: "1FA16195E9BA9B80"
+			tasks: [{
+				id: "08DAE94D40ECD1B5"
+				item: { count: 1, id: "oritech:coal_dust" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1FA16195E9BA9B80"
+				"03E60DCA6DED0A54"
+			]
+			id: "7E21537943D0B7F3"
+			tasks: [{
+				id: "22ED4C0EC6E6FD9E"
+				item: { count: 1, id: "oritech:carbon_fibre_strands" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E21537943D0B7F3"]
+			id: "02579D2A6D8BB2A0"
+			shape: "octagon"
+			tasks: [{
+				id: "2EADCB19F51AF017"
+				item: { count: 1, id: "affinity:anthracite_powder" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EC9328920BB49D4"]
+			id: "6AB94326AB6919DB"
+			tasks: [{
+				id: "2A0502194214C7B6"
+				item: { count: 1, id: "oritech:enderic_compound" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50298D24EB3D31F3"]
+			id: "4ADC420ABEC5040F"
+			tasks: [{
+				id: "3507E3C4F36AD390"
+				item: { count: 1, id: "oritech:biomass" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4ADC420ABEC5040F"
+				"03E60DCA6DED0A54"
+			]
+			id: "238EA229EB9C2274"
+			tasks: [{
+				id: "10F4ECB9C922F9A9"
+				item: { count: 1, id: "oritech:raw_biopolymer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["238EA229EB9C2274"]
+			id: "3A9BA24AB2A49406"
+			tasks: [{
+				id: "6AC1F60AB34133DA"
+				item: { count: 1, id: "oritech:still_oil_bucket" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A9BA24AB2A49406"]
+			id: "7C115A7541672368"
+			tasks: [{
+				id: "2A80E5326E5EB475"
+				item: { count: 1, id: "oritech:polymer_resin" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C115A7541672368"]
+			id: "23D1C5E726722380"
+			tasks: [{
+				id: "02D5E4FA1F52DAC7"
+				item: { count: 1, id: "oritech:plastic_sheet" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			id: "1EC9328920BB49D4"
+			tasks: [{
+				id: "3C3036BAC3937EFC"
+				item: { count: 1, id: "minecraft:sculk" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6AB94326AB6919DB"]
+			id: "31825D256125EB37"
+			tasks: [{
+				id: "34C50FEF5CA91394"
+				item: { count: 1, id: "oritech:laser_arm_block" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51922122F058679E"]
+			id: "47B538667F16967F"
+			tasks: [{
+				id: "6A561A14AC988BAF"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"23D1C5E726722380"
+				"47B538667F16967F"
+			]
+			id: "5CEC98CB075CFA58"
+			tasks: [{
+				id: "6A43AB3C02CA0914"
+				item: { count: 1, id: "oritech:processing_unit" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31825D256125EB37"]
+			id: "109B63C639D89EF5"
+			tasks: [{
+				id: "08E7FFCBC2EEE2D2"
+				item: { count: 1, id: "oritech:fluxite" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7E21537943D0B7F3"
+				"4B66CBC2FBE8AA65"
+			]
+			id: "1975125DBBEFFE32"
+			tasks: [{
+				id: "5C8A903542B14B63"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1975125DBBEFFE32"]
+			id: "51922122F058679E"
+			tasks: [{
+				id: "102AA49CD7A10682"
+				item: { count: 1, id: "oritech:adamant_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6A95A4C10A7B4A94"
+				"3FB099B3814C82B4"
+			]
+			id: "4B66CBC2FBE8AA65"
+			shape: "pentagon"
+			tasks: [{
+				id: "29EE24F0EC26B4F7"
+				item: { count: 1, id: "oritech:powered_furnace_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03E60DCA6DED0A54"]
+			id: "6A95A4C10A7B4A94"
+			tasks: [
+				{
+					id: "2A43C521C896B9D2"
+					item: { count: 1, id: "oritech:raw_silicon" }
+					type: "item"
+				}
+				{
+					id: "381BC26992E6378C"
+					item: { count: 1, id: "oritech:silicon" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B3D0E455E3B8DD1"]
+			id: "718A98485909C0A9"
+			tasks: [{
+				id: "6F936BBA64A71EFB"
+				item: { count: 1, id: "oritech:platinum_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"109B63C639D89EF5"
+				"718A98485909C0A9"
+				"5CEC98CB075CFA58"
+			]
+			id: "68975D87D08DD712"
+			tasks: [{
+				id: "0B8F5F86AC53ADB0"
+				item: { count: 1, id: "oritech:flux_gate" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7E21537943D0B7F3"]
+			id: "3FB099B3814C82B4"
+			tasks: [{
+				id: "3B987E36C866D115"
+				item: { count: 1, id: "oritech:machine_core_3" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68975D87D08DD712"]
+			id: "1D5200BA2BC03AC5"
+			tasks: [{
+				id: "398F1855DA8110E4"
+				item: { count: 1, id: "oritech:machine_core_4" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["533E21D7EBA89640"]
+			id: "50298D24EB3D31F3"
+			shape: "pentagon"
+			tasks: [{
+				id: "23C9EB99FF9EA926"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50298D24EB3D31F3"]
+			id: "03E60DCA6DED0A54"
+			shape: "pentagon"
+			tasks: [{
+				id: "3B583021F2441887"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AB94326AB6919DB"]
+			id: "3B3D0E455E3B8DD1"
+			tasks: [{
+				id: "686E12F598E5B273"
+				item: { count: 1, id: "oritech:small_platinum_clump" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+	]
+}
