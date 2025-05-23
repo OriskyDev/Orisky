@@ -18,7 +18,7 @@
   </br>
   </br>
 
-  ![Downloads](https://img.shields.io/github/downloads/OriskyDev/Orisky/total) ![Stargazers](https://img.shields.io/github/stars/OriskyDev/Orisky?style=social) ![Issues](https://img.shields.io/github/issues/OriskyDev/Orisky) ![License](https://img.shields.io/github/license/OriskyDev/Orisky)
+  ![Downloads](https://img.shields.io/github/downloads/OriskyDev/Orisky/total) ![Stargazers](https://img.shields.io/github/stars/OriskyDev/Orisky?style=social) ![Issues](https://img.shields.io/github/issues/OriskyDev/Orisky) ![License](https://img.shields.io/github/license/OriskyDev/Orisky) [![CodeFactor](https://www.codefactor.io/repository/github/oriskydev/orisky/badge)](https://www.codefactor.io/repository/github/oriskydev/orisky)
 
 
   
